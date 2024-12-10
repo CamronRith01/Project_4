@@ -1,0 +1,110 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/*Some arrow url: */
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
+body {
+
+  background:url(../images/bg1.jpg) fixed;
+  color: azure;
+  z-index: 1; 
+
+}
+
+.page-wrapper {
+  
+  /*
+  background: rgb(15,94,152);
+  background: -moz-linear-gradient(90deg, rgba(15,94,152,0.9248949579831933) 0%, rgba(12,95,157,0.9248949579831933) 50%, rgba(15,94,152,0.9276960784313726) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(15,94,152,0.9248949579831933) 0%, rgba(12,95,157,0.9248949579831933) 50%, rgba(15,94,152,0.9276960784313726) 100%);
+  background: linear-gradient(90deg, rgba(15,94,152,0.9248949579831933) 0%, rgba(12,95,157,0.9248949579831933) 50%, rgba(15,94,152,0.9276960784313726) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f5e98",endColorstr="#0f5e98",GradientType=1);
+ 
+
+  background: rgb(141,176,250);
+  background: -moz-linear-gradient(90deg, rgba(141,176,250,0.9248949579831933) 0%, rgba(200,255,253,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(141,176,250,0.9248949579831933) 0%, rgba(200,255,253,1) 100%);
+  background: linear-gradient(90deg, rgba(141,176,250,0.9248949579831933) 0%, rgba(200,255,253,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8db0fa",endColorstr="#c8fffd",GradientType=1);
+  */
+
+  
+  background: rgb(141,176,250);
+  background: -moz-linear-gradient(174deg, rgba(141,176,250,0.9248949579831933) 40%, rgba(200,255,253,1) 100%);
+  background: -webkit-linear-gradient(174deg, rgba(141,176,250,0.9248949579831933) 40%, rgba(200,255,253,1) 100%);
+  background: linear-gradient(174deg, rgba(141,176,250,0.9248949579831933) 40%, rgba(200,255,253,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8db0fa",endColorstr="#c8fffd",GradientType=1);
+  
+
+
+  background-size:contain;
+  margin: 5% 15% 5% 15%;
+  border-style:inset;
+  border-color:#60ADD3;
+  padding: 50px;
+}
+
+section {
+  display:flex;
+  flex-direction:column;
+  justify-content: space-evenly; /* Space out items vertically */
+  gap:100px;
+}
+
+section, header, h1, h2, .summary, .preamble {
+  /*border-style: solid;*/
+}
+
+header {
+  display:flex;
+  width:95%;
+  gap:463px;
+  align-items: center;
+  position: relative;
+  
+}
+
+h1 {
+  font-style:oblique;
+  font-family:serif;
+}
+
+h2{
+  
+  font-style:oblique;
+  font-family:serif;
+  font-weight:lighter;
+  
+}
+/*
+
+.page-wrapper h2 abbr {
+  text-decoration-style:double;
+  text-decoration-line:underline;
+  text-decoration-color:aquamarine;
+}
+  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
